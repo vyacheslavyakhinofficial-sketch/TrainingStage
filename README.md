@@ -1,2 +1,2 @@
 # TrainingStage
-FASTAPI
+Создаём полноценное приложение через FASTAPI
