@@ -1,2 +1,2 @@
 # TrainingStage
-FASTAPI
+Добавил две простые ручки GET, POST
