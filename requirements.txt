@@ -1,0 +1,7 @@
+# pigar
+
+fastapi==0.162.0
+pydantic==2.14.2
+SQLAlchemy==2.1.6
+uvicorn==0.54.0
+psycopg==3.3.6
