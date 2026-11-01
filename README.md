@@ -1,2 +1,3 @@
 # TrainingStage
-Создаём полноценное приложение через FASTAPI
+Добавили Базу данных через Postgres и Docker
+
