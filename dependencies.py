@@ -1,0 +1,15 @@
+from fastapi import Depends
+from sqlalchemy.orm import Session
+from app.db.session import get_db
+
+from app.services.file import TaskService
+from app.services.file import CategoryService
+
+
+def get_task_service(db: Session = Depends(get_db)) -> TaskService:
+    return TaskService(db)
+
+
+
+def get_category_service(db: Session = Depends(get_db)) -> CategoryService:
+    return CategoryService(db)
